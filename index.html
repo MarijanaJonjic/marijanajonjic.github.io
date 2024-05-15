@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>BMR Kalkulator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <h1>BMR Kalkulator (Mifflin-St. Jeorova jednadžba)</h1>
+
+  <p><strong>Spol</strong></p>
+  <input type="radio" name="spolovi" value="muškarac" checked="checked"> Muškarac <input type="radio" name="spolovi"
+    value="žena"> Žena
+
+  <p><strong>Visina</strong></p>
+  <input id="visina" type="text" value="160"> cm
+
+  <p><strong>Težina</strong></p>
+  <input id="tezina" type="text" value="60"> kg
+
+  <p><strong>Starost</strong></p>
+  <input id=" starost" type="text" value="17"> godine
+
+  <br>
+  <br>
+
+  <button onclick="izracunaj()">Izračunaj</button>
+
+  <br>
+  <br>
+
+  <div id="rezultati"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
